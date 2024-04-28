@@ -3,7 +3,7 @@ export interface IVehiculo {
     marca: string;
     linea: string;
     referencia: number;
-    modelo: string;
+    modelo: number;
     kilometro: number;
     color: string;
     imagen: string;
@@ -14,7 +14,7 @@ export class Vehiculo implements IVehiculo {
     marca: string;
     linea: string;
     referencia: number;
-    modelo: string;
+    modelo: number;
     kilometro: number;
     color: string;
     imagen: string;
