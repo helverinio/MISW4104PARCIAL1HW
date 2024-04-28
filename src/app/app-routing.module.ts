@@ -1,6 +1,5 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListarVehiculoComponent } from './vehiculo/listar-vehiculo/listar-vehiculo.component';
 import { AppComponent } from './app.component';
 
 
