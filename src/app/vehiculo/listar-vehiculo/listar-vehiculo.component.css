@@ -1,0 +1,7 @@
+.vehicule-content{
+    padding: 1em;
+}
+.vehicule-content .background{
+    width: 100%;
+    max-height: 300px;
+}

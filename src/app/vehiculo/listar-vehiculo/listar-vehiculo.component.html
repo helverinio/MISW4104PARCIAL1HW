@@ -1,0 +1,26 @@
+<div class="vehicule-content">
+    <h2>TuSegundazo.com by MISO</h2>
+    <div class="card w-100">
+        <img class="background" src="../../../assets/images/back.jpg" />
+        <div class="card-body">
+            <table class="table">
+                <thead class="bg-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Linea</th>
+                        <th scope="col">Modelo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let vehiculo of vehiculos;">
+                        <td>{{vehiculo.id}}</td>
+                        <td>{{vehiculo.marca}}</td>
+                        <td>{{vehiculo.linea}}</td>
+                        <td>{{vehiculo.modelo}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
